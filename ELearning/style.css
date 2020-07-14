@@ -1,0 +1,366 @@
+*{padding: 0px; margin: 0px;}
+input[type=reset]:hover {
+    background-color: #45a049;
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=reset] {
+    width: 49%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	display: inline-block;
+}
+
+input[type=submit] {
+    width: 49%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	display: inline-block;
+}
+
+ #form {
+	width :250px;
+    border-radius: 5px;
+    background-color: yellow;
+    padding: 17px 10px 0; 
+	box-shadow: 0 5px 37px 0 blue;
+    
+	
+}
+#form textarea{
+	width : 98%;
+	
+}
+
+
+
+#box{
+	height: 20%;
+	margin-top:10px;
+	border:1px solid;
+    border-radius: 5px;
+    background-color: white;
+    padding: 17px 10px 0; 
+}
+
+
+.table{
+	
+	display:inline-block;
+    table-layout: fixed;
+    margin:20px 20px 20px;
+    text-align: center;
+	border:1px solid;
+   
+    background-color: white;
+    padding: 10px 10px 10px; 
+}
+
+.tableresult{
+	
+	display:inline-block;
+    table-layout: fixed;
+    margin:20px 20px 20px;
+    text-align: center;
+	border:1px solid;
+   
+    background-color: white;
+    padding: 10px 10px 10px; 
+}
+
+
+.menu {
+	 overflow: hidden;
+}
+.table:hover{
+	box-shadow: 0 5px 10px 0 blue;
+	background-color : yellow;
+}
+
+.table .remov:hover{
+	
+	background-color : green;
+}
+
+
+
+.ri{
+	border-radius: 50%;
+	
+}
+
+#box{
+	text-align:center;
+	
+}
+
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+body{ background-color:orange;}
+
+
+navbar{
+  width :98%;
+  margin:10px;
+  position: fixed;
+  background-color: black;
+  padding: 7px 10px 0; 
+  wbox-shadow: 0 5px 37px 0 blue;
+  border-radius: 5px;
+}
+
+navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a , h3{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+.topnav-right {
+  float: right;
+}
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+	
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#course{
+	display: inline-block;
+	float:bottom;
+}	
+
+
+
+#container::after{content: " "; display : block; clear: both;}
+
+
+#videopanel{
+
+	float : left;
+    height: 90%;
+    width: 70%;
+    
+}
+
+#videopanel video {
+	margin-left:10px;
+	margin:10px;
+	height : 95%;
+	width : 98%;
+    
+}
+
+#overflow {
+    float : right;
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    width: 27%;
+    height: 80%;
+    overflow: scroll;
+    border: 1px solid #ccc;
+}
+
+#leftpaneltd{
+	width:50%;
+	background-color:blue;
+	float: left;
+}
+#leftpaneltd .topd{
+	background-color:white;
+	
+}
+
+#leftpaneltd .details{
+	background-color:white;
+	font-size:12px;
+}
+#addbutton{
+	margin-top:20px;
+	height:60px;
+	background-color:green
+
+}
+#addbutton h1{
+	text-align:center;
+	text-decoration: none;
+}
+#addbutton:hover{
+	box-shadow: 0 5px 37px 0 blue;
+	background-color : yellow;
+}
+
+#rightpaneltd{
+	width: 49%;
+	background-color:red;
+	float: right;
+}
+
+#leftquizadd #form{
+	margin-left:2%;
+	margin-right:2%;
+	width:90%;
+	}
+#leftquizadd #form textarea{
+	width : 98%;
+	
+}
+#leftquizadd{
+	margin-top:10px;
+	width:30%;
+	background-color:blue;
+	float: left;
+}
+#overflowquiz {
+	margin-top:10px;
+    float : right;
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    width: 65%;
+    height: 85%;
+    overflow: scroll;
+    border: 1px solid #ccc;
+}
+
+@media screen and (max-width: 1080px) {
+	#videopanel{
+		width : 100%;
+		height :auto;
+        background-color : blue;
+		
+	}
+	
+	#overflow{
+		float : left;
+		width : 98%;
+		height : 45%;
+		
+	}
+	#videopanel video {
+	margin-left:10px;
+	margin-bottom : 5px;
+	margin-right : 10px;
+	margin:10px;
+	height : 70%;
+	width : 95%;
+    
+    }
+	
+	#rightpaneltd{
+	    width: 100%;
+	
+	    float:left;
+    }
+	
+	#leftpaneltd{
+		width : 100%;
+	}
+	
+	#overflowquiz {
+		float : left;
+		width : 90%;
+	}
+	
+	#leftquizadd{
+		width : 100%;
+	}
+	
+	
+	
+	
+	}
